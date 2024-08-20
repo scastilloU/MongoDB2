@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 // Connection URL and database name
 mongoose.connect('mongodb+srv://user3:Welcome1@mydatabase1.xhiy1cl.mongodb.net/?retryWrites=true&w=majority', { useNewUrlParser: true });
-const dbName = 'MyDataBase1';
+const dbName = 'MyDataBase2';
 
 // Define a MongoDB model for your data
 const Task = mongoose.model('Task', {
